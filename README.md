@@ -1,6 +1,6 @@
-# Portfolio Bayu Rahmat
+# Portfolio
 
-Website portfolio pribadi dengan tema **Minimalist Developer** — dark mode, modern, clean, dan responsive.
+Website portfolio pribadi.
 
 ## Tech Stack
 
@@ -62,34 +62,6 @@ portfolio-bayu/
 ├── tsconfig.json
 └── next.config.js
 ```
-
----
-
-## Kustomisasi
-
-### Ganti data project / skill
-Edit file `src/data/index.ts`
-
-### Ganti warna
-Edit CSS variables di `src/app/globals.css`:
-```css
-:root {
-  --bg: #0F172A;
-  --accent: #38BDF8;
-}
-```
-
-### Tambah foto profil
-Taruh foto di `public/foto.jpg`, lalu di `Hero.tsx` ganti komponen `<Avatar />` dengan:
-```tsx
-import Image from "next/image";
-<Image src="/foto.jpg" alt="Bayu Rahmat" width={340} height={340} className="rounded-full object-cover" />
-```
-
-### Tambah CV
-Taruh file di `public/cv-bayu-rahmat.pdf` — tombol Download CV sudah otomatis pointing ke sana.
-
----
 
 ## Deploy ke Vercel (Gratis)
 
